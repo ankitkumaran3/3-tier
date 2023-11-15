@@ -77,7 +77,7 @@ sudo vi /var/www/html/index.html
 ### Steps to setup Backend server
 
 1. Launch another EC2 instance (VM-2)
-2. Install Redis server, refer "Backend-App-Readiness.md"
+2. Install Redis server, refer "[Backend-App-Readiness.md](https://github.com/ankitkumaran3/3-tier/blob/main/Backend-App-Readiness.md)"
 3. Add this line "bind 0.0.0.0" to the redis.conf file inside /etc/redis/redis.conf ( This can be added any where in the file)
 
 ```
